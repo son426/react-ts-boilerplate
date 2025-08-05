@@ -18,9 +18,9 @@
 `src/`
 `├── components/ # 공통 컴포넌트만`
 `├── pages/ # 페이지`
-`├──-- index.ts # 실제 페이지 컴포넌트`
-`├──-- useHook.ts # 페이지 내부 훅`
-`├──-- Component.tsx # 페이지 내부 컴포넌트`
+`│   ├── index.ts # 실제 페이지 컴포넌트`
+`│   ├── useHook.ts # 페이지 내부 훅`
+`│   └── Component.tsx # 페이지 내부 컴포넌트`
 `├── constants/ # 상수 정의`
 `├── services/ # API 서비스 레이어`
 `└── assets/ # 정적 자산`
