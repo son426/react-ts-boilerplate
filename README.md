@@ -1,4 +1,4 @@
-# React TypeScript Boilerplate
+# 내 취향이 가득한 보일러 플레이트
 
 ## 📁 프로젝트 구조보일러플레이트
 
