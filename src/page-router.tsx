@@ -10,7 +10,7 @@ import NotFoundPage from "./pages/not-found";
 import { logger, LogId } from "./services/logger";
 import { useEffect } from "react";
 
-function App() {
+export default function PageRouter() {
   return (
     <Router>
       <RouteLogger />
@@ -37,5 +37,3 @@ function RouteLogger() {
 
   return null;
 }
-
-export default App;
