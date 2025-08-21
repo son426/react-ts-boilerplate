@@ -9,16 +9,19 @@ import AboutPage from "./pages/about";
 import NotFoundPage from "./pages/not-found";
 import { logger, LogId } from "./services/logger";
 import { useEffect } from "react";
+import Layout from "./components/layout";
 
 export default function PageRouter() {
   return (
     <Router>
       <RouteLogger />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </Layout>
     </Router>
   );
 }
